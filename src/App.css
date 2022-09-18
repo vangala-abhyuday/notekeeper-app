@@ -1,0 +1,118 @@
+.header-bg {
+    background-color: #00bcf8;
+    /* #e20351 */
+    padding: 10px;
+}
+
+.header {
+    font-family: 'Merriweather', serif;
+    font-size: 1.6em;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 0px;
+    padding-left: 40px;
+}
+
+.add-note {
+    padding: 30px;
+}
+
+.form-input {
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 0px !important; */
+}
+
+.notes-box {
+    background-color: white;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px;
+}
+
+.button2 {
+    padding: 5px 10px;
+    border-radius: 7px;
+    color: white !important;
+    border: 2px solid white !important;
+    background-color: #12afe4 !important;
+}
+
+.icon {
+    color: #12afe4 !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.note {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.note-card {
+    border: 1px solid black;
+    padding: 0px 10px 10px 10px;
+    border-radius: 10px !important;
+}
+
+.title {
+    margin-top: 5px;
+    font-family: 'Lato', sans-serif;
+    border: 0px !important;
+}
+
+.tagline {
+    font-family: 'EB Garamond', serif;
+    border: 0px !important;
+}
+
+.body {
+    font-family: 'EB Garamond', serif;
+    border: 0px !important;
+}
+
+#root {
+    min-height: 100vh;
+    background: #00bcf8;
+    background: linear-gradient(180deg, #00bcf8, #98e6fd);
+    /* background-image: url('https://www.pngmagic.com/product_images/beautiful-blue-color-background.png'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mlauto {
+    margin-left: auto !important;
+}
+
+.page-link {
+    background-color: #12afe4 !important;
+    color: white !important;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination li {
+    display: block;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+@media screen and (max-width: 575px) {
+    .note {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80vw !important;
+    }
+}
